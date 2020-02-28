@@ -13,6 +13,10 @@
 		E90CE4322369B67B00DC51C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90CE4312369B67B00DC51C9 /* Assets.xcassets */; };
 		E90CE4352369B67B00DC51C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90CE4342369B67B00DC51C9 /* Preview Assets.xcassets */; };
 		E90CE4382369B67B00DC51C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90CE4362369B67B00DC51C9 /* LaunchScreen.storyboard */; };
+		E90CE4402369B6C800DC51C9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90CE43F2369B6C800DC51C9 /* ImagePicker.swift */; };
+		E943C39A2372FCAF00F09D7C /* Impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E943C3992372FCAF00F09D7C /* Impact.ttf */; };
+		E9F6873D237073B800AA56DF /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6873C237073B800AA56DF /* UIViewExtension.swift */; };
+		E9F6873F2370758200AA56DF /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6873E2370758200AA56DF /* ShareSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E90CE4342369B67B00DC51C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E90CE4372369B67B00DC51C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E90CE4392369B67B00DC51C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E90CE43F2369B6C800DC51C9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		E943C3992372FCAF00F09D7C /* Impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impact.ttf; sourceTree = "<group>"; };
+		E9F6873C237073B800AA56DF /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E9F6873E2370758200AA56DF /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				E90CE42B2369B67A00DC51C9 /* AppDelegate.swift */,
 				E90CE42D2369B67A00DC51C9 /* SceneDelegate.swift */,
 				E90CE42F2369B67A00DC51C9 /* ContentView.swift */,
+				E943C3992372FCAF00F09D7C /* Impact.ttf */,
+				E9F6873E2370758200AA56DF /* ShareSheet.swift */,
+				E9F6873C237073B800AA56DF /* UIViewExtension.swift */,
+				E90CE43F2369B6C800DC51C9 /* ImagePicker.swift */,
 				E90CE4312369B67B00DC51C9 /* Assets.xcassets */,
 				E90CE4362369B67B00DC51C9 /* LaunchScreen.storyboard */,
 				E90CE4392369B67B00DC51C9 /* Info.plist */,
@@ -136,6 +148,7 @@
 				E90CE4382369B67B00DC51C9 /* LaunchScreen.storyboard in Resources */,
 				E90CE4352369B67B00DC51C9 /* Preview Assets.xcassets in Resources */,
 				E90CE4322369B67B00DC51C9 /* Assets.xcassets in Resources */,
+				E943C39A2372FCAF00F09D7C /* Impact.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E90CE42C2369B67A00DC51C9 /* AppDelegate.swift in Sources */,
+				E9F6873F2370758200AA56DF /* ShareSheet.swift in Sources */,
+				E90CE4402369B6C800DC51C9 /* ImagePicker.swift in Sources */,
 				E90CE42E2369B67A00DC51C9 /* SceneDelegate.swift in Sources */,
 				E90CE4302369B67A00DC51C9 /* ContentView.swift in Sources */,
+				E9F6873D237073B800AA56DF /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
